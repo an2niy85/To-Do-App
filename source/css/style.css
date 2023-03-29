@@ -31,31 +31,31 @@ body {
   /* App Container */
   .container {
     border: 2px solid snow;
-    display: flex;
+    display: flex; /*гибкий контейнер*/
   }
   
   /* To Do Section */
   .week {
-    display: inline-flex;
-    flex-grow: 3;
-    flex-direction: column;
+    display: inline-flex; /*встроенный гибкий контейнер*/
+    flex-grow: 3; /*коэффициент увеличения*/
+    flex-direction: column; /*по вертикали*/
   }
   
   .row {
     min-height: 200px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    flex-wrap: wrap; /*перемещает на след строку*/
+    justify-content: space-around; /*добавляет пробел вокруг*/
+    align-items: center; /*выравнивает по вертикали*/
   }
   
   .square {
     width: 125px;
     height: 125px;
     padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex; /*гибкий контейнер*/
+    justify-content: center; /*йентрирует элемент*/
+    align-items: center; /*выравнивает по вертикали*/
   }
   
   .day.square {
@@ -77,8 +77,8 @@ body {
   /* Reminders */
   .reminders {
     background-color: khaki;
-    display: inline-flex;
-    flex-grow: 2;
+    display: inline-flex; /*встроенный гибкий контейнер*/
+    flex-grow: 2; /*коэффициент увеличения*/
   }
   
   .reminders h3 {
